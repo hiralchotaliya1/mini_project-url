@@ -1,24 +1,16 @@
 {
-  "name": "url",
+  "name": "url-shortener",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple URL shortener using Node.js and Postgres",
   "main": "app.js",
   "scripts": {
     "dev": "node --watch app.js",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hiralchotaliya1/mini_project-url.git"
-  },
-  "keywords": [],
+  "keywords": ["url", "shortener", "nodejs", "postgres"],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/hiralchotaliya1/mini_project-url/issues"
-  },
-  "homepage": "https://github.com/hiralchotaliya1/mini_project-url#readme",
   "dependencies": {
     "pg": "^8.16.3"
   }
