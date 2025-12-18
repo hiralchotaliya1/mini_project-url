@@ -5,7 +5,7 @@ import crypto from "crypto"
 
 
 
-const PORT = 3002;
+const PORT = process.env.PORT || 3002;
 const DATA_FILE = path.join("data","links.json");
 const serveFile = async(res,filePath,contentType)=>{
     try {
